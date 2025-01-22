@@ -1,3 +1,7 @@
+---
+typora-copy-images-to: ./assets
+---
+
 # Machine Learning as Function Approximation
 
 1/15/2025
