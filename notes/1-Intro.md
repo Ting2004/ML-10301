@@ -2,7 +2,7 @@
 typora-copy-images-to: ./assets
 ---
 
-# 1 Course Overview
+# Course Overview
 
 1/13/2025
 

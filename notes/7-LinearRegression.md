@@ -67,7 +67,7 @@ $y = w^Tx + b$
   \end{align*}
   $$
 
-- 
+​	
 
 
 
@@ -102,5 +102,16 @@ minimize the *squared* residual for some training set
   - compute gradient $\vec{g} = \Delta J(\vec{\theta})$
   - select step size $\delta$
   - update params $\vec{\theta} \leftarrow \vec{\theta} - \delta \vec{g}$
+
+  
+
+  
+$$
+\begin{align*}
+J(\theta) &= \frac{1}{N}J^{(i)}(\theta)\\
+\frac{\delta J^{(i)} (\theta)}{\delta \theta_j} &= \frac{\delta}{\delta \theta_j} (\frac{1}{2}(y^{(i)} - \theta^T\vec{x}^{(i)})^2)\\ 
+
+\end{align*}
+$$
 
   
