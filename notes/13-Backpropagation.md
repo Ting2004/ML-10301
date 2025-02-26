@@ -4,7 +4,7 @@ typora-copy-images-to: ./assets
 
 # Backpropagation
 
-2/19/25
+2/19/25 & 2/24/25
 
 ___
 
@@ -31,14 +31,43 @@ ___
 ### Backpropagation
 
 - chain rule :)
+- procedure
+  - run a forward path
+  - differentiate backwards
+    - no repeated computation
+    - efficient because a lot of reuse
+
+  - until reach the input
+  - descent :)
 
 
 
 
 
 
+### Finding Gradient for NN
+
+convention: *denominator layout*
+
+the shape of derivative is aways the same shape as the denominator
+
+![image-20250224111459577](./assets/image-20250224111459577.png) 
 
 
 
 
+
+#### target
+
+find the derivative of all the weights with respect to the result
+
+![image-20250224113456646](./assets/image-20250224113456646.png)
+
+
+
+In general, we need to find
+
+![image-20250224113517314](./assets/image-20250224113517314.png)
+
+for each $a, b$
 

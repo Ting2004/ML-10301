@@ -39,7 +39,7 @@ p(y \mid \vec{x}, \theta) =
 $$
 
 - **Loss function**
-  - $J(\theta) = - \frac{1}{N} l(\theta) = \frac{1}{N} \sum_{i=1}^N -\log{(y^{(i)} \mid \vec{x}^{(i)}, \vec{\theta})}$
+  - $J(\theta) = - \frac{1}{N} l(\theta) = \frac{1}{N} \sum_{i=1}^N -\log{p(y^{(i)} \mid \vec{x}^{(i)}, \vec{\theta})}$
   - Optimize by Gradient Descent/SGD
 - **Prediction**
   - $\arg\max_{y \in \{0, 1\}} p(y \mid \vec{x})$

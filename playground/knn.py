@@ -3,6 +3,7 @@ a knn algo
 for fun
 
 happened to be helpful for homework
+unfinished
 """
 
 import argparse
